@@ -16,7 +16,6 @@ public class Client {
     private void CreatGarden() {
         this.tree = gardenfactory.CreatTree();
         this.flower = gardenfactory.CreatFlower();
-        System.out.println("tree and garden had to crated");
 
     }
 
