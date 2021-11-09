@@ -20,4 +20,16 @@ class JapaneseGardenTest {
 
     }
 
+
+    @Test
+    void TreeType() {
+
+        Tree tree = client.getTree();
+
+        Assertions.assertEquals(tree.getType(), Type.Japanese);
+
+    }
+
+
+
 }
