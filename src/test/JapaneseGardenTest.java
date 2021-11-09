@@ -30,6 +30,14 @@ class JapaneseGardenTest {
 
     }
 
+    @Test
+    void FlowerType() {
+
+        Flower flower=client.getFlower();
+        Assertions.assertEquals(flower.getType(), Type.Japanese);
+
+    }
+
 
 
 }
