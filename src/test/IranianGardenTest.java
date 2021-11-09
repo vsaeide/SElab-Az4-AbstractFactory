@@ -20,5 +20,15 @@ class IranianGardenTest {
 
     }
 
+    @Test
+    void TreeType() {
+
+        Tree tree = client.getTree();
+
+        Assertions.assertEquals(tree.getType(), Type.Iranian);
+
+    }
+
+
 
 }
